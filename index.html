@@ -1,12 +1,99 @@
 <!DOCTYPE html>
+<html lang="es">
 <head>
-	<title>
-		Christian Díaz Pérez 
-	</title>
-	<h1>
-		 Hola mundo. Soy Christian D&iacute;az P&eacute;rez.
-	</h1>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChristianDíazPérez</title>
+    <!--Font AWESOME-->   <!--Libreria de CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--Font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/brand.png" alt="christiandiazperez logo" class="nav-brand">   <!--alt= texto alternativo-->  
+            <ul class="nav-menu">   <!--Lista UL para las pestañas de la vavegación-->
+                <li>
+                    <a href="#">Sobre mi</a></a>
+                </li>
+                <li>
+                    <a href="#">Formación académica</a></a>
+                </li>
+                <li>
+                    <a href="#">Experiencia Laboral </a></a>
+                </li>
+                <li>
+                    <a href="#">Sobre mi</a></a>
+                </li>
+                <li>
+                    <a href="#">Información adicional</a></a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a></a>
+                </li>
+            </ul> 
+            <ul class="nav-menu-right"> <!--Aqui va a ir el icono de busqueda -->
+                <li>                    <!--Vamos a utilizar una la biblioteca Font awesome CDM --> <!--Un CDM nos permite traer la biblteca sin tener que descargarla -->
+                    <a href="#">
+                        <i class="fas fa-search"></i>   <!--Imagen de la lupa-->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr> <!--Línea debajo de la navegación-->
+        <!-- SHOWCASE noticia principal-->
+        <header class="showcase">
+            <h2>Sobre mi</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita similique a soluta numquam quaerat aperiam quis consequatur fugit. Libero quaerat, officia necessitatibus voluptas eligendi asperiores praesentium possimus quidem eaque maxime.
+            </p>
+            <!--Botón saber mas   con los dos angulos como imagen-->
+            <a href="#" class="btm">Saber más <i class="fas fa-angle-double-right"></i>    </a>
+        </header>
+        
+        <!--NEWS CARDS--><!--Cada noticia es un div-->
+        <div class="news-cards">
+            <div>    
+                <img src="img/news1.jpg" alt="News 1">
+                <h3>Lorem, ipsum dolor dkjnfdkmc</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsa error eveniet iure illum doloremque quisquam velit, ipsam corrupti voluptates.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a></a>
+
+            </div>
+            <div>    
+                <img src="img/news2.jpg" alt="News 2">
+                <h3>Lorem, ipsum dolor dkjnfdkmc</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsa error eveniet iure illum doloremque quisquam velit, ipsam corrupti voluptates.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a></a>
+
+            </div>
+            <div>    
+                <img src="img/news3.jpg" alt="News 3">
+                <h3>Lorem, ipsum dolor dkjnfdkmc</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsa error eveniet iure illum doloremque quisquam velit, ipsam corrupti voluptates.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a></a>
+
+            </div>
+            <div>    
+                <img src="img/news4.jpg" alt="News 4">
+                <h3>Lorem, ipsum dolor dkjnfdkmc</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsa error eveniet iure illum doloremque quisquam velit, ipsam corrupti voluptates.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a></a>
+
+            </div>
+            
+
+        </div>
+
+    </div>        
+        
+    
 </body>
 </html>
