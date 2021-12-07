@@ -362,12 +362,14 @@ hr {
     }
     .texto_1{
         grid-row-start: 3;
+        padding: 0px 0%;
     }
     .titulo_2{
         grid-row-start: 4;
     }
     .texto_2{
         grid-row-start: 5;
+        padding: 0px 0%;
     }
     .btm-cv{
         grid-row-start: 6;
