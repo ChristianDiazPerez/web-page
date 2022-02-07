@@ -93,16 +93,18 @@ hr {
     margin: 10px 0;  /*Separacion del shoecase con la barra inferior de la nav*/
 }
 
-.showcase {
+.showcase3 {
     width: 100%;
-    background: url(../img/Portada.jpg)no-repeat center center/cover;
-    height: 550px;
+    background: url(../img/piensos/portada.PNG)no-repeat center center/cover;
+    height: auto;
+    min-height: 400px;
     padding: 50px;
-    margin-bottom: 20px;  /*Separación entre el showcase y las news cards*/
+    margin-bottom: 7%;  
     display: flex;     /*Centrar el texto*/
     flex-direction: column;    /*Colocar el texto debajo*/
     align-items: center;
     justify-content:  flex-end;
+    
 }
 
 .btm {
@@ -111,7 +113,7 @@ hr {
     border: 0;
     font-weight: bold;
     padding: 10px 20px; /*10 arriba y abajo  20 a los lados*/
-    background: #262626;
+    background: #354a5f;
     color: rgb(255, 255, 255);
     font-size: 15px;
     border: 1px solid #ffff;
@@ -122,21 +124,41 @@ hr {
     opacity: .7; /*Al pasar el cursor se oscurece*/
 }
 
-.showcase h2,
-.showcase p {
+.showcase1 h2,
+.showcase1 p,.showcase2 h2,
+.showcase2 p,.showcase3 h2,
+.showcase3 p {
     margin-bottom: 10px;    /*Separación entre cabecera, parreafo y boton de showcase*/
-    color:  #0b7bea  ;
-    text-shadow: 0 0 0.2em white, 0 0 0.2em white,
-    0 0 0.2em white
+    color:  #09539e  ;
+    text-shadow: 0 0 0.9em #ffffff, 0 0 0.9em #ffffff,
+    0 0 0.9em #ffffff;
+    
+}
+.showcase1 h1,.showcase2 h1,.showcase3 h1{
+    font-size: 200%;
 }
 
 /*SWOWCASE_2*/
 .showcase2 {
     width: 100%;
-    background: url(../img/html.jpg)no-repeat center center/cover;
-    height: 550px;
+    background: url(../img/sitio_web_portada.jpg)no-repeat center center/cover;
+    height: auto;
+    min-height: 400px;
     padding: 50px;
-    margin-bottom: 20px;  /*Separación entre el showcase y las news cards*/
+    margin-bottom: 7%;  /*Separación entre el showcase y las news cards*/
+    display: flex;     /*Centrar el texto*/
+    flex-direction: column;    /*Colocar el texto debajo*/
+    align-items: center;
+    justify-content:  flex-end;
+}
+
+.showcase1 {
+    width: 100%;
+    background: url(../img/separador_cajas_portada.jpg)no-repeat center center/cover;
+    height: auto;
+    min-height: 400px;
+    padding: 50px;
+    margin-bottom: 7%;  /*Separación entre el showcase y las news cards*/
     display: flex;     /*Centrar el texto*/
     flex-direction: column;    /*Colocar el texto debajo*/
     align-items: center;
@@ -144,14 +166,6 @@ hr {
 }
 
 
-
-.showcase2 h2,
-.showcase2 p {
-    margin-bottom: 10px;    /*Separación entre cabecera, parreafo y boton de showcase*/
-    color: #0b7bea;
-    text-shadow: 0 0 0.2em white, 0 0 0.2em white,
-    0 0 0.2em white
-}
 
 /*NEWS CARDS*/
 .news-cards {
