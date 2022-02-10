@@ -115,7 +115,9 @@ hr {
     text-align: center;
     padding-bottom: 5%;
     width: auto; 
-    
+}
+.showcase h1{
+    color: #0955a1;
 }
 .video{
     
@@ -159,7 +161,6 @@ hr {
 
 
 .showcase h2,
-.showcase h1,
 .showcase h3,
 .showcase p {
     margin-bottom: 10px;    /*Separación entre cabecera, parreafo y boton de showcase*/
