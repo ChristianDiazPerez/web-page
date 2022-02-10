@@ -17,11 +17,15 @@ body {
 a {
     color: rgb(255, 255, 255);  /*Color de las etiquetas a*/
     text-decoration: none;   /*Para que las etiquetas no tengan subrrallado*/
+    text-align: center;
+    margin: auto 0;
+    
     
 }
 
 ul {
     list-style: none;
+    text-align: center;
 }
 
 .container {
@@ -98,7 +102,7 @@ hr {
     height: auto;
     padding: 50px;
     margin-bottom: 20px;  /*Separación entre el showcase y las news cards*/
-    background-color: white;
+    background-color: #f2f2f2;
 }
 .grid{
     display: grid;

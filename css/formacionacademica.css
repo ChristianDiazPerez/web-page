@@ -311,13 +311,13 @@ hr {
 .fondo-blanco1{
     grid-row: 1/4;
     grid-column: 1/4;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     z-index: 1;
 }
 .fondo-blanco2{
     grid-row: 5/8;
     grid-column: 1/4;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     z-index: 1;
 }
 .separacion{
