@@ -146,9 +146,9 @@ hr {
 .showcase2 p,.showcase3 h2,
 .showcase3 p {
     margin-bottom: 10px;    /*Separación entre cabecera, parreafo y boton de showcase*/
-    color:    #6aa9e9   ;
-    text-shadow: 0 0 0.9em #000000, 0 0 0.9em #000000,
-    0 0 0.9em #000000;
+    color:    #0955a1   ;
+    text-shadow: 0 0 0.9em #ffffff, 0 0 0.9em #ffffff,
+    0 0 0.9em #ffffff;
     
 }
 .showcase1 h1,.showcase2 h1,.showcase3 h1{
