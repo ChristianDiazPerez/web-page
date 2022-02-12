@@ -95,10 +95,11 @@ hr {
 
 .showcase {
     width: 100%; 
-    height: 1500px;
+    height: 1800px;
     padding: 50px;
     margin-bottom: 20px;  /*Separación entre el showcase y las news cards*/
     background-color: #f2f2f2;
+    
     
 
 }
@@ -107,7 +108,7 @@ hr {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     grid-row-gap: 5%;
-    grid-column-gap: 5%;
+    grid-column-gap: 20%;
     padding: 0% 0%;
     
 }
@@ -301,6 +302,62 @@ hr {
     text-align: center;
     padding-bottom: 20px;
 }
+@media (max-width: 3300px){ 
+    .showcase {
+        height: 2900px;
+
+    }
+}
+@media (max-width: 3000px){ 
+    .showcase {
+        height: 2600px;
+    }
+}
+@media (max-width: 2700px){ 
+    .showcase {
+        height: 2400px;
+    }
+}
+@media (max-width: 2400px){ 
+    .showcase {
+        height: 2300px;
+    }
+}
+@media (max-width: 2300px){ 
+    .showcase {
+        height: 2150px;
+    }
+}
+@media (max-width: 2000px){ 
+    .showcase {
+        height: 1900px;
+    }
+}
+@media (max-width: 1850px){ 
+    .showcase {
+        height: 1820px;
+    }
+}
+@media (max-width: 1600px){ 
+    .showcase {
+        height: 1700px;
+    }
+}
+@media (max-width: 1400px){ 
+    .showcase {
+        height: 1500px;
+    }
+}
+@media (max-width: 1150px){ 
+    .showcase {
+        height: 1350px;
+    }
+}
+@media (max-width: 1000px){ 
+    .showcase {
+        height: 1220px;
+    }
+}
 
 /*Adaptación a dispositivos móviles*/
 
@@ -341,13 +398,13 @@ hr {
 
     .grid{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         
     }
 
     .showcase {
-        height: auto;
-        padding: 5%;
+        height: 1150px;
+        padding: 3%;
     }
 
     .img_perfil{
@@ -360,12 +417,38 @@ hr {
         padding-bottom: 5%;
             
     }
+    .logo1{
+        margin-left: auto;
+    }
+    .logo2{
+        margin-right: auto;  
+    }
 
 }
 
-@media (max-width: 650px){ 
+@media (max-width: 350px){ 
     .showcase {
-        height: auto;
+        height: 1200px;
     
     }
 }
+@media (max-width: 300px){ 
+    .showcase {
+        height: 1300px;
+    
+    }
+}
+@media (max-width: 260px){ 
+    .showcase {
+        height: 1500px;
+    
+    }
+}
+@media (max-width: 200px){ 
+    .showcase {
+        height: 1900px;
+    
+    }
+}
+
+

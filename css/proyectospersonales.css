@@ -119,19 +119,36 @@ hr {
     border: 1px solid #ffff;
     margin: 10px 0px;
 }
-
 .btm:hover {
     opacity: .7; /*Al pasar el cursor se oscurece*/
 }
+
+.btm-pronto{
+    cursor: pointer; /*camia el cursor al pasar por encima*/
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px; /*10 arriba y abajo  20 a los lados*/
+    background: #ff5d5d ;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 0px;
+}
+.btm-pronto:hover {
+    opacity: .7; /*Al pasar el cursor se oscurece*/
+}
+
+
 
 .showcase1 h2,
 .showcase1 p,.showcase2 h2,
 .showcase2 p,.showcase3 h2,
 .showcase3 p {
     margin-bottom: 10px;    /*Separación entre cabecera, parreafo y boton de showcase*/
-    color:  #09539e  ;
-    text-shadow: 0 0 0.9em #ffffff, 0 0 0.9em #ffffff,
-    0 0 0.9em #ffffff;
+    color:    #6aa9e9   ;
+    text-shadow: 0 0 0.9em #000000, 0 0 0.9em #000000,
+    0 0 0.9em #000000;
     
 }
 .showcase1 h1,.showcase2 h1,.showcase3 h1{

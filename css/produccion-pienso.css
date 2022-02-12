@@ -116,7 +116,7 @@ hr {
     padding-bottom: 5%;
     width: auto; 
 }
-.showcase h1{
+.showcase h1,.showcase h2,.showcase h3{
     color: #0955a1;
 }
 .video{
@@ -148,6 +148,7 @@ hr {
     
 }
 
+
 .imagen{
     
     margin: 0 auto;
@@ -158,10 +159,15 @@ hr {
     
     
 }
+.grafect{
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+    
+}
 
 
-.showcase h2,
-.showcase h3,
+
 .showcase p {
     margin-bottom: 10px;    /*Separación entre cabecera, parreafo y boton de showcase*/
     color: rgb(0, 0, 0);
