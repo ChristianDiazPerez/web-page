@@ -267,7 +267,7 @@ hr {
 .linea-discontinua{
     
     background-color: #ffffff;opacity: 0.3;
-    background-image: linear-gradient(0deg, #7aea0a  50%, #000000 50%);
+    background-image: linear-gradient(0deg, #7aea0a  50%, #181719 50%);
     background-size: 24px 24px;
 
     z-index: 1;
