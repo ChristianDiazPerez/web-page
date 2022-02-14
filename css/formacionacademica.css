@@ -98,6 +98,7 @@ hr {
     height: auto;
     padding: 3% 10%;
     margin-bottom: 20px;  /*Separación entre el showcase y las news cards*/
+    overflow: hidden;
     
     
     
@@ -502,7 +503,7 @@ hr {
     }
 
     .showcase {
-        height: auto;
+        height: 1550px;
         padding: 5% 0%;
         margin-bottom: 30%;
         
@@ -518,7 +519,7 @@ hr {
         width: 100%;
     }
     .showcase{
-        height: auto;
+        height: 1700px;
     }
     .grid{
         grid-template-columns: 1fr 1fr 50fr 1fr 1fr;
@@ -526,8 +527,9 @@ hr {
 }
 @media (max-width: 550px){
     .showcase{
-        height: 1300px;
+        height: 1700px;
         padding: 5% 0%;
+        
     }
     .grid{
         grid-template-columns: 1fr 1fr 50fr 1fr 1fr;
@@ -575,24 +577,20 @@ hr {
         z-index: 3;
     }
 }
-@media (max-width: 550px){
-    .showcase{
-        height: 1350px;
-    }
-}
+
 @media (max-width: 450px){
     .showcase{
-        height: 1400px;
+        height: 1700px;
     }
 }
 @media (max-width: 400px){
     .showcase{
-        height: 1550px;
+        height: 2000px;
     }
 }
 @media (max-width: 350px){
     .showcase{
-        height: 1800px;
+        height: 2100px;
     }
 }
 
