@@ -138,10 +138,10 @@ hr {
     margin: 0 auto;
 }
 
+.showcase h1,.showcase h2,.showcase h3{
+    color: #073869;
+}
 
-.showcase h2,
-.showcase h1,
-.showcase h3,
 .showcase p {
     margin-bottom: 10px;    /*Separación entre cabecera, parreafo y boton de showcase*/
     color: rgb(0, 0, 0);
