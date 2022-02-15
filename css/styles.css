@@ -124,10 +124,11 @@ hr {
 .titulo_1{
     grid-column-start: 2;
     grid-row-start: 1;
-    color: rgb(250, 250, 250);
+
     text-align: center;
     padding: 0px 10%;
     padding-bottom: 5%;
+       
 }
 .texto_1{
     grid-row-start: 2;
@@ -168,7 +169,7 @@ hr {
     border: 0;
     font-weight: bold;
     padding: 10px 20px; /*10 arriba y abajo  20 a los lados*/
-    background: #262626;
+    background: #041d36;
     color: rgb(255, 255, 255);
     font-size: 15px;
     border: 1px solid #ffff;
@@ -181,10 +182,11 @@ hr {
 .btm:hover {
     opacity: .7; /*Al pasar el cursor se oscurece*/
 }
+.showcase h1,.showcase h2,.showcase h3{
+    color: #073869;
+}
 
-.showcase h2,
-.showcase h1,
-.showcase h3,
+
 .showcase p {
     margin-bottom: 10px;    /*Separación entre cabecera, parreafo y boton de showcase*/
     color: rgb(0, 0, 0);

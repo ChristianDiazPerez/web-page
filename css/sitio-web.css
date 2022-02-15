@@ -118,9 +118,7 @@ hr {
     
     
 }
-.showcase h1{
-    color: #0955a1;
-}
+
 .texto1{
     grid-column: 1/3;
     grid-row-start: 2;
@@ -187,9 +185,10 @@ hr {
 }
 
 
+.showcase h1,.showcase h2,.showcase h3{
+    color: #073869;
+}
 
-.showcase h2,
-.showcase h3,
 .showcase p {
     margin-bottom: 10px;    /*Separación entre cabecera, parreafo y boton de showcase*/
     color: rgb(0, 0, 0);
