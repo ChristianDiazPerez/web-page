@@ -114,9 +114,26 @@ hr {
     text-align: center;
     padding-bottom: 5%;
     width: auto; 
-}
-.showcase h1,.showcase h2,.showcase h3{
     color: #073869;
+}
+
+.titulo_directo{
+    text-align: center;
+    padding-bottom: 5%;
+    width: auto; 
+    color: rgb(0, 153, 0);
+}
+.titulo_molido{
+    text-align: center;
+    padding-bottom: 5%;
+    width: auto; 
+    color: rgb(76, 0, 153);
+}
+.titulo_aplastado{
+    text-align: center;
+    padding-bottom: 5%;
+    width: auto; 
+    color: rgb(153, 76, 0);
 }
 .video{
     

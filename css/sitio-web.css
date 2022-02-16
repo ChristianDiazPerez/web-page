@@ -302,58 +302,58 @@ hr {
 }
 @media (max-width: 3300px){ 
     .showcase {
-        height: 2900px;
+        height: 3000px;
 
     }
 }
 @media (max-width: 3000px){ 
     .showcase {
-        height: 2600px;
+        height: 2700px;
     }
 }
 @media (max-width: 2700px){ 
     .showcase {
-        height: 2400px;
+        height: 2500px;
     }
 }
 @media (max-width: 2400px){ 
     .showcase {
-        height: 2300px;
+        height: 2400px;
     }
 }
 @media (max-width: 2300px){ 
     .showcase {
-        height: 2150px;
+        height: 2250px;
     }
 }
 @media (max-width: 2000px){ 
     .showcase {
-        height: 1900px;
+        height: 2000px;
     }
 }
 @media (max-width: 1850px){ 
     .showcase {
-        height: 1820px;
+        height: 1920px;
     }
 }
 @media (max-width: 1600px){ 
     .showcase {
-        height: 1700px;
+        height: 1800px;
     }
 }
 @media (max-width: 1400px){ 
     .showcase {
-        height: 1500px;
+        height: 1600px;
     }
 }
 @media (max-width: 1150px){ 
     .showcase {
-        height: 1350px;
+        height: 1450px;
     }
 }
 @media (max-width: 1000px){ 
     .showcase {
-        height: 1220px;
+        height: 1320px;
     }
 }
 
@@ -401,7 +401,7 @@ hr {
     }
 
     .showcase {
-        height: 1150px;
+        height: 1250px;
         padding: 3%;
     }
 
@@ -426,25 +426,25 @@ hr {
 
 @media (max-width: 350px){ 
     .showcase {
-        height: 1200px;
+        height: 1300px;
     
     }
 }
 @media (max-width: 300px){ 
     .showcase {
-        height: 1300px;
+        height: 1400px;
     
     }
 }
 @media (max-width: 260px){ 
     .showcase {
-        height: 1500px;
+        height: 1600px;
     
     }
 }
 @media (max-width: 200px){ 
     .showcase {
-        height: 1900px;
+        height: 2000px;
     
     }
 }
