@@ -206,6 +206,11 @@ hr {
     margin: auto 0%;
     z-index: 2;
 }
+.enlace3{
+    grid-row-start: 8;
+    grid-column: 2;
+    z-index: 2;
+}
 .titulo4{
     grid-row-start: 7;
     grid-column: 4/6;
@@ -225,7 +230,7 @@ hr {
 .texto4{
     grid-row-start: 8;
     grid-column-start: 5;  
-    padding-left: 2%; 
+    
     margin: auto 0%;
     z-index: 2;
 }
