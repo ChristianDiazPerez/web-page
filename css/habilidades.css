@@ -251,7 +251,7 @@ hr {
     width: 100%;
 
 }
-.btmp{
+.btm-cerrar{
     cursor: pointer; /*camia el cursor al pasar por encima*/
     display: inline-block;
     border: 0;
