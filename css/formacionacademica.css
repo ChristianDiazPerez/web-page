@@ -109,6 +109,10 @@ hr {
     grid-column-gap: 0%;
     
 }
+
+.bandera{
+    height: 20px;
+}
 .titulo2{
     grid-row: 1;
     grid-column: 1/3;
@@ -140,6 +144,7 @@ hr {
     grid-row: 3;
     grid-column: 1;
     text-align: center;
+    align-self: flex-start;
     padding-top: 20%;
     z-index: 2;
 
@@ -432,7 +437,7 @@ hr {
     .centro2{
         grid-row: 3;
         grid-column: 2;
-        align-self: center;
+        padding-top: 15%;
     }
     .logo2{
         grid-row: 3;
@@ -467,6 +472,7 @@ hr {
         grid-row: 8;
         grid-column: 2;
         align-self: center;
+        padding-top: 15%;
     }
     .logo1{
         grid-row: 8;
