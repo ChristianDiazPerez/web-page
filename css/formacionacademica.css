@@ -460,8 +460,7 @@ hr {
     .fecha-fin1{
         grid-row: 6;
         grid-column: 2/5;
-        text-align: right;
-        align-self: flex-end;
+        background-color: #ea0a7a;
     }
     .fecha-inicio1{
         grid-row: 10;
