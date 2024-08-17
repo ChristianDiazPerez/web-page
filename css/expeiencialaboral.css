@@ -147,6 +147,7 @@ hr {
     grid-row: 3;
     grid-column: 4;
     text-align: right;
+    align-self: self-end;
     color: rgb(255, 255, 255);
 }
 .centro1{
