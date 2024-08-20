@@ -226,7 +226,6 @@ hr {
     margin: 0% 20%;
 }
 .modal{
-    
     margin: 1% auto;
     height: 100%;
     width: 100%;
@@ -238,6 +237,16 @@ hr {
     background-color: rgba(0, 0, 0,);
 }
 
+/*Animación abrir modal*/
+.modal[open]{
+    scale: 1;
+    transition: scale .3s ease-in-out;
+
+    @starting-style{
+        scale: 0;
+    }
+}
+/************************/
 .btn-cerrar{
     float: right;
     top: 0;
@@ -254,16 +263,15 @@ hr {
 .btm-cerrar{
     cursor: pointer; /*camia el cursor al pasar por encima*/
     display: inline-block;
-    border: 0;
+    border: none;
     font-weight: bold;
     padding: 10px 20px; /*10 arriba y abajo  20 a los lados*/
     background: #ec0909;
     color: rgb(255, 255, 255);
     font-size: 15px;
-    border: 1px solid #ffff;
     align-self: auto;
 }
-.btmp:hover {
+.btm-cerrar:hover {
     opacity: .7; /*Al pasar el cursor se oscurece*/
 }
 
