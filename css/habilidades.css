@@ -238,13 +238,19 @@ hr {
 }
 
 /*Animación abrir modal*/
-.modal[open]{
+.modal[open]{ /*Paso 1, abrir*/
     scale: 1;
     transition: scale .3s ease-in-out;
 
-    @starting-style{
+    @starting-style{ /*Paso 0, estado inicial*/
         scale: 0;
     }
+}
+.modal{
+    transition: scale .3s ease,
+        display .3s ease allow-discrete;
+
+    scale: 0;
 }
 /************************/
 .btn-cerrar{
