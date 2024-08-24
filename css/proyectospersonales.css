@@ -363,3 +363,11 @@ hr {
         grid-row-start: 6;
     }
 }
+/*Adaptación a pantallas grandes*/
+
+@media (min-width: 2000px){
+    .container{
+        max-width: 1800px;
+        height: auto;
+    }
+    }
