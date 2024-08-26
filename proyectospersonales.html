@@ -67,7 +67,13 @@
             <p>
                 PLC SIEMENS, TIA Portal, Factory I/O
             </p>
-            <div href="" class="btm-pronto">Muy pronto <!--<i class="fas fa-angle-double-right"></i>--> </div>
+            <div href="" class="btm-pronto" >Muy pronto <!--<i class="fas fa-angle-double-right"></i>--> 
+                <script>
+                    document.querySelector('.btm-pronto').addEventListener('click', () => {     
+    alert('Proyecto no disponible en este momento.\n\nDisculpe las molestias.');
+})
+                </script>
+            </div>
             <!--Para volverlo un btn cambiar el div por la etiqueta <a>-->
         </header>
 

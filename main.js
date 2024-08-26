@@ -7,7 +7,8 @@ ScrollReveal().reveal('.news-cards', { delay: 500});
 ScrollReveal().reveal('.cards-banner-one', { delay: 500});
 ScrollReveal().reveal('.cards-banner-two', { delay: 500});
 
-// Modales 
+// Modal Eplan. Página Proyectos Habilidades
+
 const btnAbrirModal = 
 document.querySelector("#id-btn-abrir-modal");
 const btnCerrarModal =
@@ -20,4 +21,16 @@ btnAbrirModal.addEventListener("click",()=>{
 })
 btnCerrarModal.addEventListener("click",()=>{
     modal.close();
+})
+
+//Alerta proyecto no dispoble. Página Proyectos personales
+
+//id-proyecto-no-disponible
+
+//document.querySelector('.btm-pronto').addEventListener('click',()=>{
+   // alert('Hola');
+//})
+
+document.querySelector('.btm-pronto').addEventListener('click', () => {     
+    alert('Hola mundo');
 })
