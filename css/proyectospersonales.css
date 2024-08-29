@@ -327,6 +327,12 @@ hr {
     .nav-main ul.nav-menu-right{
         margin-right:40px;   /*Espaciado entre el btn de busqueda y el de la barra de navegación para que no se solapen*/
     }
+    .texto-email{
+        text-align: center;
+        position: absolute; /*Para que no afecte a la posicion de los demás iconos*/
+        margin: 5px 0px;
+        }
+    
 
     .grid{
         display: grid;
