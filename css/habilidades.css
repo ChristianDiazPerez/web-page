@@ -107,7 +107,14 @@ hr {
 .grid{
     display: grid;    
     grid-template-columns: 4fr 8fr 0.5fr 4fr 8fr;
-    grid-template-rows: 0.6fr 1fr 0.5fr 0.3fr 0.6fr 1fr 0.5fr 0.3fr 0.2fr 0.3fr 0.8fr 0.8fr;
+    grid-template-rows: 0.6fr 1fr 0.5fr 0.3fr 0.6fr 1fr 0.5fr 0.3fr 0.2fr 0.3fr 0.6fr 0.4fr 0.6fr 0.5fr;
+     /*
+        0.6 titulo 
+        1 contenido simple 
+        0.5 boton 
+        0.3 Espacio entre cartas 
+
+        */
     justify-content: center;
     padding-inline: auto; 
     grid-column-gap: 0%;
@@ -299,7 +306,7 @@ hr {
     z-index: 2;
 }
 .imagen5_2{
-    grid-row: 12;
+    grid-row: 12/15;
     grid-column: 1;
     align-self: center;
     height: 60px;
@@ -313,11 +320,33 @@ hr {
     align-self: center;
 }
 .texto5_2{
-    grid-row: 12;
+    grid-row: 12/15;
     grid-column: 2;  
     z-index: 2;
     align-self: center;
 }
+.titulo6{
+    grid-row: 11;
+    grid-column: 4/6;
+    text-align: center;
+    align-self: center;
+    z-index: 2;
+}
+.imagen6{
+    grid-row: 12/14;
+    grid-column: 4;
+    align-self: center;
+    height: 60px;
+    margin: 0% auto; 
+    z-index: 2;
+}
+.texto6{
+    grid-row: 12/14;
+    grid-column: 5;  
+    z-index: 2;
+    align-self: center;
+}
+
 .fondo-blanco1{
     z-index: 1;
     background-color: #f2f2f2;
@@ -347,8 +376,14 @@ hr {
 .fondo-blanco5{
     z-index: 1;
     background-color: #f2f2f2;
-    grid-row: 9/13;
+    grid-row: 9/15;
     grid-column: 1/3;
+}
+.fondo-blanco6{
+    z-index: 1;
+    background-color: #f2f2f2;
+    grid-row: 11/14;
+    grid-column: 4/6;
 }
 
 .btm {
@@ -563,7 +598,7 @@ hr {
     .grid{
         display: grid;
         grid-template-columns: 1fr 4fr;
-        grid-template-rows: 0.6fr 1fr 1fr 0.3fr 0.6fr 1fr 1fr 0.3fr 0.6fr 1fr 1fr 0.3fr 0.61fr 1fr 1fr 0.3fr 0.6fr 1fr 1fr;
+        grid-template-rows: 0.6fr 1fr 1fr 0.3fr 0.6fr 1fr 1fr 0.3fr 0.6fr 1fr 1fr 0.3fr 0.61fr 1fr 1fr 0.3fr 0.6fr 1fr 1fr 0.3fr 0.6fr 1fr;  
         /*justify-content: center;
         padding-inline: 0%;  
         justify-content: space-between;*/
@@ -665,6 +700,18 @@ hr {
         grid-row: 19;
         grid-column: 2;  
     }
+    .titulo6{
+        grid-row: 21;
+        grid-column: 1/3;
+    }
+    .imagen6{
+        grid-row: 22;
+        grid-column: 1;
+    }
+    .texto6{
+        grid-row: 22;
+        grid-column: 2;  
+    }
     .fondo-blanco1{
         grid-row: 1/4;
         grid-column: 1/3;
@@ -684,6 +731,10 @@ hr {
     .fondo-blanco5{
         grid-row: 17/20;
         grid-column: 1/3;  
+    }
+    .fondo-blanco6{
+        grid-row: 21/24;
+        grid-column: 1/3;    
     }
 }
 
