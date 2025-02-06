@@ -106,7 +106,7 @@ hr {
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    height: 400px;
+    
     
 }
 .img_perfil{
